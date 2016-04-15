@@ -1,0 +1,22 @@
+/* app css stylesheet*/
+body {
+	background-color: #10476C;
+}
+.wrapper {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.scene {
+  display: none;
+}
+#canvas {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.imgs {
+	display: none;
+}
