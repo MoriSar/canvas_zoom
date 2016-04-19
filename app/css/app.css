@@ -1,6 +1,6 @@
 /* app css stylesheet*/
 body {
-	background-color: #10476C;
+	background-color: #02DEFF;
 }
 .wrapper {
   display: block;
@@ -13,10 +13,14 @@ body {
 #canvas {
   margin: 0 auto;
   padding: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 .imgs {
 	display: none;
+}
+.depth {
+  position: relative;
 }
